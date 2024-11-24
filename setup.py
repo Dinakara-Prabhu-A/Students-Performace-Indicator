@@ -11,7 +11,7 @@ def get_requires() -> List[str]:
 
 
 setup(
-    name = 'E Commerce Customer Segmentation',
+    name = 'Students Performace Indicator',
     version = '0.1',
     author = 'Dinakara Prabhu A',
     author_email = 'dinakaraprabhu11@gmail.com',
