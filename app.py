@@ -28,7 +28,6 @@ def predict_datapoint():
             pred_df = data.get_data_as_data_frame()
             predict_pipeline = PredictPipeline()
             results = predict_pipeline.predict(pred_df)
-
             st.subheader("Predicted Performance based on the entered details:")
             st.write("prediction of math score ",results)
             return results
